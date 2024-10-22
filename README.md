@@ -18,10 +18,14 @@ CREATE TABLE `usuarios` (
   PRIMARY KEY (`id`)
 )
 ```
+Na API está sendo usado a lib `mysql2`
+```bash
+npm install mysql2
+```
 
 ## Como iniciar
 
-Ambos os diretórios
+Ambos os diretórios, para baixar as dependências
 ```bash
 npm install
 ```
@@ -30,15 +34,14 @@ API
 ```bash
 npm run start
 ```
+A API deve rodar na porta `8800`
+ex: `localhost:8800`
 
 FrontEnd
-
 ```bash
 npm run start
 ```
 
-A API deve rodar na porta `8800`
-ex: `localhost:8800`
 
 
 ## Links Pessoais
