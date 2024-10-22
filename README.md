@@ -1,12 +1,44 @@
 # User-CRUD
-Exercício de CRUD para registro de usuário com Nodejs + ReactJs
+Exercício de CRUD para registro de usuário com Nodejs + ReactJs + MySql
 
 ## Clonando o Repositório
-
 
 ```bash
 git clone --recursive https://github.com/Allan-Wariss/User-CRUD
 ```
+
+## Query MySql
+```sql
+CREATE TABLE `usuarios` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `nome` varchar(245) NOT NULL,
+  `email` varchar(245) NOT NULL,
+  `tel` varchar(45) NOT NULL,
+  `data_nascimento` date NOT NULL,
+  PRIMARY KEY (`id`)
+)
+```
+
+## Como iniciar
+
+Ambos os diretórios
+```bash
+npm install
+```
+
+API
+```bash
+npm run start
+```
+
+FrontEnd
+
+```bash
+npm run start
+```
+
+A API deve rodar na porta `8800`
+ex: `localhost:8800`
 
 
 ## Links Pessoais
