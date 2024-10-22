@@ -19,6 +19,21 @@ CREATE TABLE `usuarios` (
 )
 ```
 
+##Como iniciar
+API
+```bash
+npm run start
+```
+
+FrontEnd
+
+```bash
+npm run start
+```
+
+A API deve rodar na porta 8800
+ex: localhost:8800
+
 
 ## Links Pessoais
 
