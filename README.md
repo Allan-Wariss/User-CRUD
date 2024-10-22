@@ -31,8 +31,8 @@ FrontEnd
 npm run start
 ```
 
-A API deve rodar na porta 8800
-ex: localhost:8800
+A API deve rodar na porta `8800`
+ex: `localhost:8800`
 
 
 ## Links Pessoais
