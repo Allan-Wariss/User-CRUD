@@ -8,7 +8,7 @@ git clone --recursive https://github.com/Allan-Wariss/User-CRUD
 ```
 
 ## Query MySql
-```Query
+```sql
 CREATE TABLE `usuarios` (
   `id` int NOT NULL AUTO_INCREMENT,
   `nome` varchar(245) NOT NULL,
