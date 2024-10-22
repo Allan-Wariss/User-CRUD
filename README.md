@@ -2,9 +2,9 @@
 Exercício de CRUD para registro de usuário com Nodejs + ReactJs + MySql
 
 ## Recomendaçõs
-Usar `Nodejs v18.17.0`.
-MySql `MySql v8.0.31`.
-Na API está sendo usado a lib `mysql2`.
+- Usar `Nodejs v18.17.0`.
+- MySql `MySql v8.0.31`.
+- Na API está sendo usado a lib `mysql2`.
 ```bash
 npm install mysql2
 ```
@@ -41,8 +41,8 @@ API
 ```bash
 npm run start
 ```
-A API deve rodar na porta `8800`.
-ex: `localhost:8800`
+- A API deve rodar na porta `8800`.
+- ex: `localhost:8800`
 
 FrontEnd
 ```bash
