@@ -20,6 +20,12 @@ CREATE TABLE `usuarios` (
 ```
 
 ## Como iniciar
+
+Ambos os diretórios
+```bash
+npm install
+```
+
 API
 ```bash
 npm run start
