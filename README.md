@@ -1,6 +1,17 @@
 # User-CRUD
 Exercício de CRUD para registro de usuário com Nodejs + ReactJs + MySql
 
+## Recomendaçõs
+Usar ´Nodejs v18.17.0´
+MySql ´MySql v8.0.31´
+Na API está sendo usado a lib `mysql2`
+```bash
+npm install mysql2
+```
+```json
+"mysql2": "^3.11.3",
+```
+
 ## Clonando o Repositório
 
 ```bash
@@ -17,13 +28,6 @@ CREATE TABLE `usuarios` (
   `data_nascimento` date NOT NULL,
   PRIMARY KEY (`id`)
 )
-```
-Na API está sendo usado a lib `mysql2`
-```bash
-npm install mysql2
-```
-```json
-"mysql2": "^3.11.3",
 ```
 
 ## Como iniciar
