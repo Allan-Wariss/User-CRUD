@@ -22,6 +22,9 @@ Na API está sendo usado a lib `mysql2`
 ```bash
 npm install mysql2
 ```
+```json
+"mysql2": "^3.11.3",
+```
 
 ## Como iniciar
 
