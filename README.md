@@ -8,8 +8,13 @@ Exercício de CRUD para registro de usuário com Nodejs + ReactJs + MySql
 ```bash
 npm install mysql2
 ```
+package.json
 ```json
-"mysql2": "^3.11.3",
+ "dependencies": {
+...
+    "mysql2": "^3.11.3",
+...
+  }
 ```
 
 ## Clonando o Repositório
