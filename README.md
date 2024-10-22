@@ -20,7 +20,7 @@ package.json
 ## Clonando o Repositório
 
 ```bash
-git clone --recursive https://github.com/Allan-Wariss/User-CRUD
+git clone https://github.com/Allan-Wariss/User-CRUD
 ```
 
 ## Query MySql
